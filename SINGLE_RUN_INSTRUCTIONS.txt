@@ -1,0 +1,55 @@
+----Terminal 1:
+cd ~/catkin_ws
+roscore
+
+----Terminal 2:
+cd ~/catkin_ws
+roslaunch bert2_simulator bert2_gazebo.launch
+
+----Terminal 3:
+cd ~/catkin_ws
+roslaunch bert2_moveit moveit_group.launch
+
+----Terminal 4:
+cd ~/catkin_ws
+rosrun bert2_simulator object.py
+
+----Terminal 5:
+cd ~/catkin_ws
+rosrun bert2_simulator pressure.py
+
+----Terminal 6:
+cd ~/catkin_ws
+rosrun bert2_simulator sensors.py
+
+----Terminal 7: (the 1 indicates the number of test run, change accordingly)
+cd ~/catkin_ws
+rosrun bert2_simulator monitor2.py 1
+
+----Terminal 8: (the 1 indicates the number of test run, change accordingly)
+cd ~/catkin_ws
+rosrun bert2_simulator monitor3.py 1
+
+----Terminal 9: (the 1 indicates the number of test run, change accordingly)
+cd ~/catkin_ws
+rosrun bert2_simulator monitor4.py 1
+
+----Terminal 10: (the 1 indicates the number of test run, change accordingly)
+cd ~/catkin_ws
+rosrun bert2_simulator monitor5.py 1
+
+----Terminal 11: (the 1 indicates the number of test run, change accordingly)
+cd ~/catkin_ws
+rosrun bert2_simulator monitor6.py 1
+
+----Terminal 12: 
+cd ~/catkin_ws
+rosrun bert2_simulator robot.py
+
+----Terminal 13: (stimulus_1 is the name of the stimulus file, use 1 to 100 for random, 101 to 10100 for constrained ('10' + '1' to '100'), and stimulus_legiblembg-1 to -4 for model-based, as documented in our HVC paper)
+cd ~/catkin_ws
+rosrun bert2_simulator human.py stimulus_1
+
+When the human and robot terminate, you can kill all the other scripts and ROS-Gazebo by Ctrl+C in all the terminals.
+
+
