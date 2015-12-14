@@ -5,11 +5,11 @@ CDV simulator-based testbench with test templates, v.hvc, with support for ROS I
 
 bert2_moveit ROS package --> path planning
 bert2_simulator ROS package --> simulator and testbench
-simulator_ *.sh --> bash scripts for the testing in batch mode
-Inside the bert2_simulator package --> BERT2 robot model, human model and object model, for Gazebo
-Inside bert2_simulator/scripts --> simulator nodes, assertion monitor nodes, coverage collector module, "stimulus" (test templates with high-level human actions) for pseudorandom, constrained and model-based test generation in requirements and cross-product coverage
-Inside bert2_simulator/scripts/testgens --> test generator modules, UPPAAL PTA model (6 PTA automata), CTL properties for model checking and model-based test generation
-Example_test_reports_mbtg_xproduct folder --> example of generated assertion monitor reports, coverage reports and test run reports, for a model-based test template (stimulus_legiblembga-1 or GPL = ~1,~1,1).
+simulator_ *.sh --> bash scripts for the testing in batch mode.
+Inside the bert2_simulator package --> BERT2 robot model, human model and object model, for Gazebo.
+Inside bert2_simulator/scripts --> simulator nodes, assertion monitor nodes, coverage collector module, "stimulus" (test templates with high-level human actions) for pseudorandom, constrained and model-based test generation in requirements and cross-product coverage.
+Inside bert2_simulator/scripts/testgens --> test generator modules, UPPAAL PTA model (6 PTA automata), CTL properties for model checking and model-based test generation.
+
 
 ----------------BEFORE USE---------------------------------------------- 
 Assumptions:
