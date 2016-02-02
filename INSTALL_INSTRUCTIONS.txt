@@ -27,6 +27,9 @@ which gzclient
 
 sudo apt-get install ros-indigo-gazebo-ros-pkgs ros-indigo-gazebo-ros-control
 
+----Install MoveIt!----
+
+sudo apt-get install ros-indigo-moveit-full
 
 ----Setup a Catkin workspace----
 
