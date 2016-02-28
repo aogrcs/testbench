@@ -30,3 +30,6 @@ For a single experimental run, follow SINGLE_RUN_INSTRUCTIONS.txt
 For bash mode, run the bash scripts from the directory ~/ (your home). Each script runs tests with stimulus from model-based, random, constrained test generation. Reports are generated in the /tmp/ folder. Reports on assertion coverage and code coverage are produced automatically in ~/catkin_ws. 
 
 Questions, bugs, comments: dejanira.araizaillan@bristol.ac.uk, david.western@bristol.ac.uk
+
+------------LICENSE--------------------------------
+GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007, for the code in this repository, when made or modified by us. 
