@@ -1,5 +1,5 @@
-# testbench_vhvc_indigo
-CDV simulator-based testbench with test templates, v.hvc, with support for ROS Indigo
+# testbench_v1 (v_hvc)
+CDV simulator-based testbench with test templates
 
 ----------------CONTENTS------------------------------------------------
 
