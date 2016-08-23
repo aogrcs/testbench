@@ -8,7 +8,7 @@ roslaunch bert2_simulator bert2_gazebo.launch
 
 ----Terminal 3:
 cd ~/catkin_ws
-roslaunch bert2_moveit moveit_group.launch
+roslaunch bert2_moveit move_group.launch
 
 ----Terminal 4:
 cd ~/catkin_ws
