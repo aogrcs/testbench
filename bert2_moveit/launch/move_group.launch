@@ -58,6 +58,6 @@
        to open a separate shell for MoveIt.  To do so, you must first install the terminator package: 
        http://gnometerminator.blogspot.co.uk/p/introduction.html                                         -->  
   <!-- node name="$(anon moveit_fix)" pkg="bert2_simulator" type="moveit_fix.py" respawn="false" / -->
-  <node name="$(anon moveit_fix)" pkg="bert2_simulator" type="moveit_fix.py" launch-prefix="terminator -x" respawn="false" />
+  <node name="$(anon moveit_fix)" pkg="bert2_simulator" type="moveit_fix.py" launch-prefix="gnome-terminal --command" respawn="false" />
 
 </launch>
